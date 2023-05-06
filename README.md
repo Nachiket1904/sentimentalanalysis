@@ -12,15 +12,32 @@ This is a simple web application that performs sentiment analysis on user input 
 - TextBlob 
 
 # Installation
-- Clone the repository to your local machine:
+1. Clone the repository
+2. Install the dependencies mentioned in the requirements.txt file
+```pip install -r requirements.txt ```
 
-- Navigate to the project directory:
+# Usage
+1. Run the following command to start the Flask server:
+``` python app.py ```
+2. Open a web browser and go to http://localhost:5000 to access the web application.
+3. Enter the text you want to analyze and click the submit button.
+4. The output will be displayed on the same page, which includes the polarity and subjectivity of the entered text.
 
-- Install the required dependencies: ' pip install -r requirements.txt '
+# Screenshots
+<img height= "300px" width="500px" src="https://github.com/Nachiket1904/sentimentalanalysis/blob/cfa43aae4fff1a329f96c1b656f0c34d2da806c7/sentimentalanalysis/1.png?raw=true" >
+<br>
 
-- Start the Flask web server: 'flask run'
+<img height= "150px" width="500px" src="https://github.com/Nachiket1904/sentimentalanalysis/blob/cfa43aae4fff1a329f96c1b656f0c34d2da806c7/sentimentalanalysis/2.png?raw=true" >
+output image
 
-Open your web browser and go to http://localhost:5000 to access the web application.
+# Contributing
+Contributions to this project are welcome. To contribute, please follow these steps:
+
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push to your forked repository.
+5. Create a pull request.
 
 
 
