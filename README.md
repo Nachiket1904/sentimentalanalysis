@@ -1,5 +1,5 @@
 # Sentiment Analysis with TextBlob and Flask
-This is a simple web application that performs sentiment analysis on user input text using the TextBlob library and Flask web framework.
+This is a simple web application that performs sentiment analysis and basic natural language processing using the TextBlob library and Flask web framework. The application also extracts nouns from the input text, lemmatizes them, and generates a randomized list of pluralized nouns.
 
 ## Features
 - Analyze the sentiment of input text as positive, negative, or neutral
